@@ -6,7 +6,7 @@ private[example] object JStromBuffer {
 
 }
 
-private[example] trait JStromBuffer {
+private[example] sealed trait JStromBuffer {
 
   def openingTokens: List[Char]
 
